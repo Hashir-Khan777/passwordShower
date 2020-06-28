@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FontAwesomeWeb/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Shower</title>
+</head>
+
+<body>
+    <div class="password">
+        <form action="index.html" method="POST">
+            <fieldset>
+                <legend> Login Form </legend>
+                <label for="username"> Username: </label>
+                <input type="text" id="username" placeholder="Enter username...">
+                <label for="password"> Password: </label>
+                <input type="password" id="password" placeholder="Enter password...">
+                <i class="fas fa-eye-slash eye" onclick="see()"></i>
+                <label for="btn">
+                    <input type="submit" value="Log in" id="btn">
+                </label>
+            </fieldset>
+        </form>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
